@@ -1,11 +1,68 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "taskFlow.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "taskFlow.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/taskFlow.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/taskFlow.Application.dll": {}
+        }
+      },
+      "taskFlow.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/taskFlow.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/taskFlow.Domain.dll": {}
+        }
+      },
+      "taskFlow.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "taskFlow.Application": "1.0.0",
+          "taskFlow.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/taskFlow.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/taskFlow.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "taskFlow.Application/1.0.0": {
+      "type": "project",
+      "path": "../taskFlow.Application/taskFlow.Application.csproj",
+      "msbuildProject": "../taskFlow.Application/taskFlow.Application.csproj"
+    },
+    "taskFlow.Domain/1.0.0": {
+      "type": "project",
+      "path": "../taskFlow.Domain/taskFlow.Domain.csproj",
+      "msbuildProject": "../taskFlow.Domain/taskFlow.Domain.csproj"
+    },
+    "taskFlow.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../taskFlow.Infrastructure/taskFlow.Infrastructure.csproj",
+      "msbuildProject": "../taskFlow.Infrastructure/taskFlow.Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "taskFlow.Application >= 1.0.0",
+      "taskFlow.Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\18810\\.nuget\\packages\\": {}
@@ -32,7 +89,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Application\\taskFlow.Application.csproj": {
+              "projectPath": "C:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Application\\taskFlow.Application.csproj"
+            },
+            "c:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\taskFlow.Infrastructure.csproj": {
+              "projectPath": "c:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\taskFlow.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

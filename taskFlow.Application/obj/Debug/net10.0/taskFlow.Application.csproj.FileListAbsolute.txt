@@ -1,0 +1,16 @@
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\bin\Debug\net10.0\taskFlow.Application.deps.json
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\bin\Debug\net10.0\taskFlow.Application.dll
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\bin\Debug\net10.0\taskFlow.Application.pdb
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\bin\Debug\net10.0\taskFlow.Domain.dll
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\bin\Debug\net10.0\taskFlow.Domain.pdb
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\taskFlow.Application.csproj.AssemblyReference.cache
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\taskFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\taskFlow.Application.AssemblyInfoInputs.cache
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\taskFlow.Application.AssemblyInfo.cs
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\taskFlow.Application.csproj.CoreCompileInputs.cache
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\taskFlow.Application.sourcelink.json
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\taskFlow.A4CA6942.Up2Date
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\taskFlow.Application.dll
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\refint\taskFlow.Application.dll
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\taskFlow.Application.pdb
+C:\Users\18810\Downloads\taskFlow\taskFlow.Application\obj\Debug\net10.0\ref\taskFlow.Application.dll

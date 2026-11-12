@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "taskFlow.Infrastructure/1.0.0": {
+        "dependencies": {
+          "taskFlow.Application": "1.0.0",
+          "taskFlow.Domain": "1.0.0"
+        },
+        "runtime": {
+          "taskFlow.Infrastructure.dll": {}
+        }
+      },
+      "taskFlow.Application/1.0.0": {
+        "dependencies": {
+          "taskFlow.Domain": "1.0.0"
+        },
+        "runtime": {
+          "taskFlow.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "taskFlow.Domain/1.0.0": {
+        "runtime": {
+          "taskFlow.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "taskFlow.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "taskFlow.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "taskFlow.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

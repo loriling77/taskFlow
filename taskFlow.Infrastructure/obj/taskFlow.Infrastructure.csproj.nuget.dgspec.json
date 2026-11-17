@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\taskFlow.Infrastructure.csproj": {}
+    "C:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\taskFlow.Infrastructure.csproj": {}
   },
   "projects": {
     "C:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Application\\taskFlow.Application.csproj": {
@@ -678,14 +678,14 @@
         }
       }
     },
-    "c:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\taskFlow.Infrastructure.csproj": {
+    "C:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\taskFlow.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\taskFlow.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\taskFlow.Infrastructure.csproj",
         "projectName": "taskFlow.Infrastructure",
-        "projectPath": "c:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\taskFlow.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\taskFlow.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\18810\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\18810\\Downloads\\taskFlow\\taskFlow.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\18810\\AppData\\Roaming\\NuGet\\NuGet.Config"
